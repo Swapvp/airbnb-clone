@@ -1,4 +1,241 @@
 * {
     margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    padding: 5px 80px;
+
+}
+
+.navbar {
+    display: flex;  
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 15px 0
+
+}
+
+.navlogo {
+    display: flex;
+}
+
+.logo img {
+    filter: invert(40%) sepia(55%) saturate(5288%) hue-rotate(329deg) brightness(101%) contrast(103%)
+}
+
+.search-box {
+    border: 1px solid transparent;
+    border-radius: 33px;
+    padding: 3px 3px 3px 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px;
+}
+
+.search-btn {
+    padding: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.search-box i {
+    background-color: #FF385C;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile {
+    border: 1px solid #7e7e7ed0;
+    border-radius: 33px;
+    padding: 10px 10px 10px 12px;
+    margin-left: 8px;
+}
+
+.profile i {
+    font-size: 23px;
+}
+
+.lang{
+    margin-left: 8px;
+}
+
+/* Sub Header Starts */
+
+.sub-header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 2px solid lightgray;
+
+}
+
+.icon-list {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    filter: invert(36%) sepia(0%) saturate(1354%) hue-rotate(148deg) brightness(95%) contrast(90%);
+    padding-bottom: 8px;
+}
+
+.border {
+    border-bottom   : 2px solid #000;
+
+}
+
+.icons:hover {
+    filter: none;
+}
+
+.icons img {
+    height: auto;
+    width: 30px;
+    margin: auto;
+}
+
+.forward-icon {
+font-size: 25px;
+margin:  0 10px;
+}
+
+.filter-btn {
+    font-size: 16px;
+    display: flex;
+    padding: 15px 10px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    margin: 0 10px;   
+}
+
+.filter-btn i {
+    margin: 0 10px;
+}
+
+/* Sub Header Ends */
+
+
+/* Main Content Starts */
+
+.main-card {
+    display: flex;
+    align-items: center;
+
+}
+
+.card {
+    width: 350px;
+    margin: 0 15px;
+}
+
+.villa-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-title{
+    margin: 5px;
+}
+
+.card-desc{
+    margin: 5px;
+    font-weight: 100;
+    color: gray;
+}
+
+.card-price{
+    margin: 8px 5px;
+}
+.card-sub {
+    color: gray;
+    font-weight: 100;
+}
+
+/* Main Content Ends */
+
+/* Footer Starts */
+
+
+
+.footer-heading {
+    margin: 20px 10px;
+}
+
+.footer-submenu {
+    display: flex;
+
+}
+
+.footer-submenu p {
+    margin: 0 10px;
+    padding: 10px 0;
+    filter: invert(36%) sepia(0%) saturate(1354%) hue-rotate(148deg) brightness(95%) contrast(90%);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.footer-submenu p:hover{
+    filter: none;
+}
+
+.location-options {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: space-around;  */
+    padding: 20px 20px;
+}
+
+.locations {
+margin-right: 9%;
+}
+
+.location-border {
+    border-top: 2px solid lightgray ;
+
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+   justify-content: flex-start;
+    
+}
+
+.link-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.links {
+    text-align: left  ;
+    margin-right: 16%;
+}
+
+.links ul {
+    padding: 0 20px;
+}
+
+.links ul li {
+    list-style-type: none;
+    text-align: left !important;
+    margin: 10px 0;
+}
+
+/* Footer Ends */
+
